@@ -1,0 +1,66 @@
+ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: yellow;
+}
+
+li
+{
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+}
+
+li a
+{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active)
+{
+    background-color: red;
+}
+
+main
+{
+    margin: 0;
+    padding: 5px;
+    background-color: yellow;
+}
+
+main > h1, p, .browser
+{
+    margin: 10px;
+    padding: 5px;
+}
+
+.browser {
+    background: red;
+}
+
+.browser > h2, p
+{
+    margin: 4px;
+    font-size: 90%;
+}
+
+h1,h2
+{
+    font-family: 'Montserrat', sans-serif;
+}
+
+p
+{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2
+{
+    margin-right: 10%;
+}
